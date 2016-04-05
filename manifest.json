@@ -21,7 +21,6 @@
       ],
       "js": [
         "/js/zepto.min.js",
-        "/js/scrolltotop.js",
         "/js/remodal.min.js",
         "/js/codemirror.js",
         "/js/javascript_json.js",
