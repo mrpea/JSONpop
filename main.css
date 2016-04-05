@@ -32,13 +32,12 @@ a.simplejson {
     border-radius: 9px 9px 0px 0px;
 
     background-color: #42CDCA;
-    /*background: linear-gradient(to bottom, rgba(66,205,202,1) 0%, rgba(62,194,190,1) 100%);*/
 }
 
 #simplejson_header .sktitle {
     margin: 0;
-    font-weight: 300; 
-    font-size: 5.0rem;
+    font-weight: 300;
+    font-size: 50px !important;
     line-height: 1.2; 
     letter-spacing: -.1rem;
     padding-top: 15px;
