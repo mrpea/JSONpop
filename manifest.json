@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "JSONpop - Textarea JSON editor",
-  "version": "0.0.0.1",
+  "version": "0.0.0.2",
   "description": "Easily edit JSON in textareas",  
   "permissions": ["storage"],
   "content_scripts": [
