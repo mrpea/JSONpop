@@ -1,0 +1,192 @@
+a.simplejson {
+    float: right;
+    font-size:80%;
+}
+
+#simplejson_modal {
+    text-align: left;
+    width: 95%;
+    height: 90%;
+
+    border-radius: 9px;
+    background-color: transparent;
+    box-shadow: 0px 20px 40px 2px rgba(0,0,0,0.75);
+}
+
+.remodal {
+    max-width: 100% !important;
+    padding:0px;
+}
+
+.remodal-overlay.sj-dark {
+    background: linear-gradient(40deg, rgba(73, 55, 107, 0.701961) 0%, rgba(21, 22, 42, 0.981961) 100%);
+}
+
+.remodal-overlay.sj-light {
+    background: transparent;
+    background-color: rgba(204,204,204,.5);
+}
+
+#simplejson_header {
+    height: 80px;
+    border-radius: 9px 9px 0px 0px;
+
+    background-color: #42CDCA;
+    /*background: linear-gradient(to bottom, rgba(66,205,202,1) 0%, rgba(62,194,190,1) 100%);*/
+}
+
+#simplejson_header .sktitle {
+    margin: 0;
+    font-weight: 300; 
+    font-size: 5.0rem;
+    line-height: 1.2; 
+    letter-spacing: -.1rem;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 400px;
+    float: left;
+    display: block;
+    color: white;
+
+}
+
+#simplejson_body {
+    height: calc(100% - 120px);
+    background-color: green;
+}
+
+#simplejson_body .CodeMirror {
+    height: 100%;
+    font-size: 14px;
+    font-style: normal !important;
+    font-family: 'Anonymous Pro';
+}
+
+#simplejson_body .CodeMirror span.cm-string {
+    font-style: normal !important;
+    letter-spacing: 0.03rem;
+}
+
+#simplejson_body .CodeMirror {
+    background-image: none !important;
+
+}
+#simplejson_body .cm-s-sj-dark.CodeMirror{
+    /*background-color: #333;*/
+    font-size: 15px !important;
+
+}
+#simplejson_body .cm-s-sj-dark.CodeMirror .CodeMirror-lines{
+    /*background-color: #333;*/
+
+}
+#simplejson_body .cm-s-sj-light.CodeMirror {
+    background-color: #fff;
+
+}
+#simplejson_body .cm-s-sj-light.CodeMirror .CodeMirror-lines{
+    background-color: #fff;
+
+}
+
+#simplejson_body .cm-s-mdn-like.CodeMirror .CodeMirror-gutters {
+    border-left: 0px solid transparent;
+}
+
+#simplejson_body div.cm-s-mdn-like span.cm-property {
+    color: #FF3479 !important;
+}
+
+#simplejson_body div.cm-s-mdn-like span.CodeMirror-matchingbracket {
+    color: black;
+    /*outline: #ff6d35 solid 1px;*/
+    font-weight: bold;
+    background-color: #ffd47b;
+    outline: none;
+}
+
+
+#simplejson_body div.cm-s-monokai span.cm-property {
+    color: #FF3479 !important;
+}
+
+#simplejson_body div.cm-s-monokai span.CodeMirror-matchingbracket {
+    
+    color: black !important;
+    font-weight: bold;
+    background-color: #FF9800;
+    text-decoration: none !important;
+}
+
+#simplejson_footer {
+    height: 40px;
+    background-color: #4974A7;
+    /*background: linear-gradient(to top, rgba(81,131,184,1) 0%, rgba(84,134,191,1) 100%);*/
+    border-radius: 0px 0px 9px 9px;
+}
+
+#simplejson_header .buttons {
+    float: right;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#simplejson_header .buttons button.sk {
+    margin-top: 25px;
+}
+
+#simplejson_header button.sk {
+    border: 0px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.21rem;
+}
+
+#simplejson_header button.sk:hover{
+    color: #514B67;
+}
+
+#simplejson_header button.sk.skerrors {
+    color: #FF3479
+}
+
+#simplejson_footer .options {
+    float: right;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 0.21rem;
+    margin-right: 15px;
+}
+
+#simplejson_footer .options button.sk {
+    margin-top: 2px;
+    border: 0px;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 0.21rem;
+    padding: 0 5px;
+}
+#simplejson_footer .options button.sk:hover  {
+    color: #42CDCA;
+}
+
+#simplejson_footer .options button.sk.activetheme {
+    border-bottom: 2px solid #42CDCA;
+    height: 30px;
+    border-radius: 0px;
+}
+
+#simplejson_header button.sk.skdisable {
+    text-decoration: line-through;
+    color: #514B67;
+}
+
+.skimg {
+    width: 48px;
+    height:48px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-image: url('chrome-extension://__MSG_@@extension_id__/img/ic_exit_to_app_black_24dp_2x.png');
+}
